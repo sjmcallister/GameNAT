@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Add Game";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+	<div>
+		@Html.ActionLink("Home", "../")
+	</div>
+</p>
+
+<div>
+	<form action="/Games/AddGame" method="post">
+		Enter the title of the game:
+		<input id="Title" name="Title" type="text" value="" />
+		<input type="submit" value="Submit" />
+	</form>
+</div>

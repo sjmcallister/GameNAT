@@ -13,7 +13,7 @@ body
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #656565;
+	color: #b0b0b0;
 }
 
 h1
@@ -35,11 +35,22 @@ p, ol, ul
 {
 	margin-top: 0;
 }
-	
-ol, ul
+
+td
 {
-	/*padding: 0;*/
-	/*list-style: none;*/
+	padding:5px;
+}
+
+th
+{
+	background:#C4376B;
+	padding:5px;
+}
+
+tr
+{
+	background:#FFFFFF;
+	color:#000000;
 }
 	
 ul.actions
