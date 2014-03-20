@@ -1,17 +1,20 @@
-﻿@{
-    Layout = null;
+﻿@model GameNAT.XboxVotingService.XboxGame
+
+@{
+	ViewBag.Title = "GameNAT - Get Games";
+	ViewBag.Message = "Below is a list of the current games:";
 }
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>GetGames</title>
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
-        
-    </div>
+	<div>
+		@ViewBag.Message
+	</div>
 </body>
 </html>

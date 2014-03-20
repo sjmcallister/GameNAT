@@ -10,8 +10,15 @@
 	<title>@ViewBag.Title</title>
 </head>
 <body>
-	<div>
+	<div id="header">
 		<h1>Welcome to @ViewBag.Title</h1>
+	</div>
+	<div id="content">
+		<h3>Current Features:</h3>
+		<ul>
+			<li>@Html.ActionLink("Get Games", "GetGames")</li>
+			<li>Add game</li>
+		</ul>
 	</div>
 </body>
 </html>
