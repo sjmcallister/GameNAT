@@ -257,6 +257,8 @@
     <Content Include="Views\Games\Index.cshtml" />
     <Content Include="Views\Games\AddVote.cshtml" />
     <Content Include="Views\Games\AddGame.cshtml" />
+    <Content Include="Views\Games\SetGotIt.cshtml" />
+    <Content Include="Views\Games\ClearGames.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

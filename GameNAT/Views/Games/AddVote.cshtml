@@ -1,20 +1,24 @@
-﻿
-@{
-    ViewBag.Title = "Add Vote";
+﻿@{
+	ViewBag.Title = "Add Vote";
 }
 
-<h2>@ViewBag.Title</h2>
+<h2>
+	@ViewBag.Title
+</h2>
 
-<p>
-	<div>
+<div>
+	<p>
 		@Html.ActionLink("Home", "../")
-	</div>
-</p>
+	</p>
+</div>
 
 <div>
 	<form action="/Games/AddVote" method="post">
 		Enter the id of the game:
-		<input id="Id" name="Id" type="text" value="" />
+		<input id="Id" max="2147483647" name="Id" type="number" value="" />
 		<input type="submit" value="Submit" />
 	</form>
+	<p>
+		@ViewBag.StatusMessage
+	</p>
 </div>

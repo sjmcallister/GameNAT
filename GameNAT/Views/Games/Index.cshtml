@@ -1,15 +1,18 @@
 ﻿@model IEnumerable<GameNAT.XboxVotingService.XboxGame>
 
 @{
-    ViewBag.Title = "Current Games";
+	ViewBag.Title = "Current Games";
 }
 
-<h2>@ViewBag.Title</h2>
-<p>
-	<div>
+<h2>
+	@ViewBag.Title
+</h2>
+
+<div>
+	<p>
 		@Html.ActionLink("Home", "../")
-	</div>
-</p>
+	</p>
+</div>
 
 @if (Model.Count() == 0)
 {
@@ -53,8 +56,9 @@ else
 	}
 	</table>
 }
-<p>
-	<div>
+
+<div>
+	<p>
 		@Html.ActionLink("Home", "../")
-	</div>
-</p>
+	</p>
+</div>

@@ -1,5 +1,5 @@
 ﻿@{
-	ViewBag.Title = "Add Game";
+	ViewBag.Title = "Set Got It";
 }
 
 <h2>
@@ -13,9 +13,9 @@
 </div>
 
 <div>
-	<form action="/Games/AddGame" method="post">
-		Enter the title of the game:
-		<input id="Title" name="Title" type="text" value="" />
+	<form action="/Games/SetGotIt" method="post">
+		Enter the id of the game:
+		<input id="Id" max="2147483647" name="Id" type="number" value="" />
 		<input type="submit" value="Submit" />
 	</form>
 	<p>

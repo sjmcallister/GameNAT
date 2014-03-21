@@ -1,5 +1,5 @@
 ﻿@{
-	ViewBag.Title = "Add Game";
+	ViewBag.Title = "Clear Games";
 }
 
 <h2>
@@ -13,9 +13,8 @@
 </div>
 
 <div>
-	<form action="/Games/AddGame" method="post">
-		Enter the title of the game:
-		<input id="Title" name="Title" type="text" value="" />
+	<form action="/Games/ClearGames" method="post">
+		The following action cannot be undone.  Click submit to clear all games.
 		<input type="submit" value="Submit" />
 	</form>
 	<p>
